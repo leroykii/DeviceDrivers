@@ -22,7 +22,8 @@ ssize_t scull_read(
 
 	return 0;
 }
- 
+
+
 ssize_t scull_write(
 	struct file* pfile, 
 	const char* __user buffer, 
